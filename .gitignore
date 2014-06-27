@@ -1,0 +1,6 @@
+*.pyc
+*.swp
+*.swo
+# setup.py folders
+/dist/
+/*.egg-info/
