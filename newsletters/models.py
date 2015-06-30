@@ -4,6 +4,8 @@ from django.db import models
 
 class Subscription(models.Model):
     email = models.EmailField(unique=True)
+    ip = models.IPAddressField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name = _('Subscription')
