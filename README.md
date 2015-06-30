@@ -1,5 +1,7 @@
 # django-newsletters
 
+WARNING: This app is in early development (pre-alpha) and may not work as intended, change rapidly or break something. Please wait for a stable release or at least for an alpha or beta release.
+
 Template for reusable django applications.
 
 All following sections are just dummies and may not work as excepted.
